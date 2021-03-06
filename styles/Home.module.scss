@@ -1,0 +1,200 @@
+.container {
+  text-align: center;
+  min-height: 100vh;
+  h1 {
+    padding-top: 15px;
+  }
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 40px;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #f5f5f5;
+  background: #f5f5f5;
+  border-radius: 5px;
+  width: 30%;
+  margin: 10px;
+  transition: all 200ms ease-in-out;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  p {
+    margin: 5px;
+  }
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 1px solid #0183b7;
+}
+
+.backhome {
+  background: #292929;
+  padding: 5px;
+  border-radius: 2px;
+  color: white;
+  position: absolute;
+  top: 25px;
+  left: 5px;
+}
+
+.darkButton {
+  background: #292929;
+  padding: 5px;
+  color: white;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border-radius: 2px;
+  transition: all 100ms ease-in-out;
+  z-index: 999999;
+  display: none;
+}
+
+.darkButton:hover {
+  cursor: pointer;
+  background: yellow;
+  color: #292929;
+}
+
+.darkBg {
+  background: #292828;
+  color: white;
+
+  .darkButton {
+    background: white;
+    color: #292929;
+  }
+
+  .darkButton:hover {
+    background: yellow;
+    cursor: pointer;
+  }
+
+  .card {
+    background: #424242;
+    border-color: #424141;
+  }
+  .card:hover {
+    border-color: white;
+  }
+
+  .backhome {
+    background: #0183b7;
+    padding: 5px;
+    border-radius: 2px;
+    color: white;
+  }
+}
+
+.weblink {
+  text-decoration: underline;
+}
+
+.privacyContainer {
+  display: flex;
+  margin-top: 50px;
+
+  div {
+    width: 100%;
+  }
+
+  .privacyLeft {
+    width: 40%;
+
+    img:first-of-type {
+      width: 90%;
+    }
+  }
+
+  .privacyRight {
+    text-align: center;
+  }
+
+  img {
+    transition: all 200ms ease-in-out;
+  }
+
+  a:hover img {
+    transform: scale(1.1);
+  }
+
+  .badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    div {
+      width: 80%;
+    }
+
+    img {
+      width: auto;
+      max-width: auto;
+    }
+  }
+}
+
+.policyArea {
+  width: 100% !important;
+  padding: 10px 30px;
+
+  ul {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .backhome {
+    top: 5px;
+  }
+  .darkButton {
+    top: -10px;
+  }
+
+  .privacyContainer {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    .privacyLeft {
+      width: 100%;
+      margin-bottom: 20px;
+      margin-top: -20px;
+
+      img {
+        max-height: 50vh;
+        width: auto !important;
+        margin: 0 auto;
+      }
+
+      .badges div {
+        width: 50%;
+        margin-top: 20px;
+
+        img {
+          width: auto !important;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  .title {
+    font-size: 1.4rem;
+    padding-top: 50px !important;
+  }
+
+  .card {
+    width: 100%;
+  }
+}
