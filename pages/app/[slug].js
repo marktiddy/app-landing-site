@@ -9,14 +9,14 @@ const PrivacyPolicyPage = () => {
   const { slug } = router.query;
 
   const appToShow = appData.filter((f) => {
-    return f.name.toLowerCase() == slug;
+    return f.slug == slug;
   });
 
   if (!appToShow[0]) {
     return <h2>Loading...</h2>;
   }
 
-  const { name, desc, apple, android, image, policy } = appToShow[0];
+  const { name, desc, apple, android, image, policy, alexa } = appToShow[0];
 
   return (
     <Layout>
@@ -53,6 +53,20 @@ const PrivacyPolicyPage = () => {
                   <img
                     src="/images/playbadge.png"
                     alt="Google Play Store Link"
+                    style={styles.downloadbadge}
+                  />
+                </a>
+              </div>
+            ) : (
+              ''
+            )}
+            {alexa ? (
+              <div>
+                {' '}
+                <a href={alexa}>
+                  <img
+                    src="/images/skilllogo.png"
+                    alt="Alexa Skill Link"
                     style={styles.downloadbadge}
                   />
                 </a>

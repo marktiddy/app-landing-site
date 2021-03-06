@@ -9,6 +9,9 @@ const Layout = ({ children }) => {
         {darkMode ? 'Light Mode' : 'Dark Mode'}
       </p>
       {children}
+      <footer>
+        <p>2021 &copy; Mark Tiddy</p>
+      </footer>
     </div>
   );
 };

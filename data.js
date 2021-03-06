@@ -1,6 +1,7 @@
 export const appData = [
   {
     name: '100 Questions - Youth',
+    slug: '100-questions-youth',
     desc: 'An app to help you have better conversations with young people.',
     image: '/images/100q.png',
     apple: 'https://apps.apple.com/gb/app/100-questions-youth/id1387964565',
@@ -11,6 +12,7 @@ export const appData = [
   },
   {
     name: 'This or That',
+    slug: 'this-or-that',
     desc: 'The quick-fire choice app that shows you how others have voted.',
     image: '/images/thisorthat.png',
     apple: 'http://apps.marktiddy.co.uk/this-or-that-app/',
@@ -20,6 +22,7 @@ export const appData = [
   },
   {
     name: 'LecDeck',
+    slug: 'lecdeck',
     desc:
       'Created with the Diocese of Bath and Wells and Diocese of Bristol this app is a lectionary-based youth work resource.',
     image: '/images/lecdeck.png',
@@ -30,6 +33,7 @@ export const appData = [
   },
   {
     name: "Catch 'em",
+    slug: 'catch-em',
     desc: 'A fun game of matching coloured balls to coloured rings.',
     image: '/images/catch.png',
     apple: 'http://apps.marktiddy.co.uk/catch-em-game/',
@@ -39,6 +43,7 @@ export const appData = [
   },
   {
     name: 'Discuss LGBT*',
+    slug: 'discuss-lgbt',
     desc:
       'An app to help youth leaders facilitate conversations with young people about LGBT*.',
     image: '/images/discusslgbt.png',
@@ -50,11 +55,25 @@ export const appData = [
   },
   {
     name: 'USA Tip Calculator',
+    slug: 'usa-tip',
     desc: 'A simple app to help you work out your tip when in the USA.',
     image: '/images/usatip.png',
     policy:
       '<p>Apps built by Mark Tiddy are apps provided to iOS app users and Google PlayStore users and are intended for use as they are.</p><p>This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my service.</p><p>If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.</p><h3>Information Collection and Use</h3><p>As part of using my apps I don’t require you to provide me directly with any personally identifiable information. I do not retain any data from your device.</p><p>Any free apps I create use third party services that may collect information used to identify you.</p><p><strong>The privacy policies of third party service prividers which may be used within my apps can be found below</strong></p><ul><li><a href="https://support.google.com/admob/answer/6128543?hl=en" target="_blank">AdMob</a></li><li><a href="https://firebase.google.com/policies/analytics" target="_blank">Firebase Analytics</a></li><li><a href="https://www.google.com/policies/privacy/" target="_blank">Google Play Services</a></li></ul><p><a href="https://policies.google.com/technologies/partner-sites?hl=en-GB&gl=uk" target="_blank">For details on how Google uses your data please click here</a></p><h3>Cookies</h3><p>Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device’s internal memory.</p><p>This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.</p><h3>Changes to this privacy policy</h3><p>I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</p><h3>Contact Us</h3><p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me via <a href="mailto:support@marktiddy.co.uk">support@marktiddy.co.uk</a>.</p>',
     apple: 'http://apps.marktiddy.co.uk/usa-tip-calculator-app/',
     android: '',
+  },
+  {
+    name: 'Colchester Waste Collection Alexa Skill',
+    slug: 'colchester-waste-collection-skill',
+    desc:
+      "An Alexa skill to tell you when your waste collection day is and what's being collected this week",
+    image: '/images/alexa.png',
+    apple: '',
+    android: '',
+    alexa:
+      'https://www.amazon.co.uk/MT-Media-Colchester-Waste-Collection/dp/B08CHKK1K8/ref=sr_1_1?dchild=1&keywords=colchester+waste+collection&qid=1615049486&s=digital-skills&sr=1-1',
+    policy:
+      '<h3>Colchester Waste Collection Info Alexa Skill Terms of Use & Privacy Policy</h3><p><strong>Please note: This skill has been created by Mark Tiddy, an independent developer and the skill is not an official skill. For support regarding this skill please contact <a href="mailto:support@marktiddy.co.uk">support@marktiddy.co.uk</a></strong></p><h3>Terms of Use</h3><p>These terms of use are an agreement between you (the user of the skill) and me (as the developer of the skill). Before using the skill it’s important that you read this and the privacy policy alongside Amazon’s Alexa Terms of Use. ‘Alexa’ refers to Amazon’s Alexa Voice Service which includes third party services such as this skill.</p><p><strong>Disclaimer</strong> The nature of skills mean that parts of the skill may stop working at times. Any information provided by the skill should not be seen as advice and I take no responsibility for missed collections. The skill is designed as a useful tool to go alongside the official Colchester waste collection information.</p><h3> Privacy Policy</h3> <p>In using my skill you agree to my privacy policy. The following describes how your data is used. Remember, when using my skill you are agreeing to the terms of use outlined above, Amazon’s Alexa Term’s of Use and Amazon Digital Service’s Privacy Policy.</p><p><strong>General</strong> Using my skill requires talking to Alexa. The voice input is sent to Amazon where my skill uses it to understand what you wish to do. This is essential in order to allow the skill to give you an appropriate answer.</p><p><strong>Data</strong></p>I never collect or share personal data with my skills. The ‘Colchester Waste Collection Info’ skill requires you to share your device collection and postcode in order to function. This information is not stored by the skill or myself and is used once each time you activate the skill.</p><p>The device postcode is based on the settings for your Alexa device in the Alexa smartphone app. No other address detail is passed to the skill about your or your device. Improving the Service</p><p>In order to improve the service Amazon automatically analysis how often utterances are spoken and other analytics. This is carried out by Amazon in the Amazon Developer Portal.</p>',
   },
 ];

@@ -82,6 +82,10 @@
   .card {
     background: #424242;
     border-color: #424141;
+    h2 {
+      padding: 0;
+      text-align: center;
+    }
   }
   .card:hover {
     border-color: white;
@@ -147,11 +151,16 @@
 .policyArea {
   width: 100% !important;
   padding: 10px 30px;
+  text-align: left;
+
+ 
 
   ul {
     text-align: left;
   }
 }
+
+
 
 @media only screen and (max-width: 680px) {
   .backhome {
